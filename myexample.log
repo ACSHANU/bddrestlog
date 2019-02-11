@@ -1,0 +1,120 @@
+05/Feb/2019 11:38:24,304- SeleniumCompoenents: 101/102 : insert into nifty100 values('20190205','Zee Entertainment','365.35','369.90','341.05','Y') : 1
+05/Feb/2019 11:38:24,471- SeleniumCompoenents: Number Of Elements:102
+05/Feb/2019 11:38:24,471- SeleniumCompoenents: ${constituents.url}https://in.investing.com/indices/cnx-100-components
+05/Feb/2019 11:38:24,487- SeleniumCompoenents: ${prefix.element}//table[@id='cr1']//tr
+05/Feb/2019 11:38:24,487- SeleniumCompoenents: ${historic.url}https://in.investing.com/indices/cnx-100-historical-data
+05/Feb/2019 11:38:24,487- SeleniumCompoenents: ${element.wait.date}curr_table
+05/Feb/2019 11:38:24,487- SeleniumCompoenents: ${xpath.today}//table[1]/tbody/tr[1]/td[1]
+05/Feb/2019 11:38:26,661- SeleniumCompoenents:  select t2.symbol , t1.close , t2.close , t3.close , t1.high, t2.high,t3.high,  t1.low, t2.low  , t3.low  from  nifty100 t1 , nifty100 t2 , nifty100 t3  where t1.symbol=t2.symbol and t1.date='20190205' and t2.date ='20190204'  and t3.date='20190201' and t1.isvalid= 'Y' and t2.isvalid='Y' and t3.isvalid='Y' and t3.symbol=t1.symbol and t1.symbol=t2.symbol 
+05/Feb/2019 11:40:36,749- SeleniumCompoenents: SeleniumCompoenents Initialized
+05/Feb/2019 11:41:02,785- SeleniumCompoenents: todaysDate :20190205
+05/Feb/2019 11:41:02,786- SeleniumCompoenents: todaysDateMinusOne :20190204
+05/Feb/2019 11:41:02,787- SeleniumCompoenents: todaysDateMinusTwo :20190201
+05/Feb/2019 11:41:14,160- SeleniumCompoenents: 1/102 : insert into nifty100 values('20190205','ABB India','1,257.75','1,293.95','1,252.00','Y') : 1
+05/Feb/2019 11:41:14,847- SeleniumCompoenents: 2/102 : insert into nifty100 values('20190205','ACC','1,388.80','1,436.45','1,356.20','Y') : 1
+05/Feb/2019 11:41:15,418- SeleniumCompoenents: 3/102 : insert into nifty100 values('20190205','Adani','339.80','340.95','330.75','Y') : 1
+05/Feb/2019 11:41:15,939- SeleniumCompoenents: 4/102 : insert into nifty100 values('20190205','Aditya Birla Capital','81.85','84.60','80.10','Y') : 1
+05/Feb/2019 11:41:16,403- SeleniumCompoenents: 5/102 : insert into nifty100 values('20190205','Ambuja Cements','209.25','215.30','206.05','Y') : 1
+05/Feb/2019 11:41:16,727- SeleniumCompoenents: 6/102 : insert into nifty100 values('20190205','Ashok Leyland','82.15','83.40','81.20','Y') : 1
+05/Feb/2019 11:41:17,095- SeleniumCompoenents: 7/102 : insert into nifty100 values('20190205','Asian Paints','1,450.35','1,466.90','1,443.10','Y') : 1
+05/Feb/2019 11:41:17,591- SeleniumCompoenents: 8/102 : insert into nifty100 values('20190205','Aurobindo Pharma','743.50','768.70','736.90','Y') : 1
+05/Feb/2019 11:41:18,175- SeleniumCompoenents: 9/102 : insert into nifty100 values('20190205','Avenue Supermarts','1,471.70','1,492.30','1,455.00','Y') : 1
+05/Feb/2019 11:41:18,655- SeleniumCompoenents: 10/102 : insert into nifty100 values('20190205','AXIS Bank','729.50','731.60','719.50','Y') : 1
+05/Feb/2019 11:41:19,259- SeleniumCompoenents: 11/102 : insert into nifty100 values('20190205','Bajaj Auto','2,710.65','2,720.00','2,645.00','Y') : 1
+05/Feb/2019 11:41:19,723- SeleniumCompoenents: 12/102 : insert into nifty100 values('20190205','Bajaj Finance','2,603.60','2,642.10','2,593.95','Y') : 1
+05/Feb/2019 11:41:20,243- SeleniumCompoenents: 13/102 : insert into nifty100 values('20190205','Bajaj Finserv','6,017.10','6,064.00','5,969.00','Y') : 1
+05/Feb/2019 11:41:20,781- SeleniumCompoenents: 14/102 : insert into nifty100 values('20190205','Bandhan Bank','416.65','422.60','403.00','Y') : 1
+05/Feb/2019 11:41:21,301- SeleniumCompoenents: 15/102 : insert into nifty100 values('20190205','Bank Of Baroda','107.95','111.20','107.20','Y') : 1
+05/Feb/2019 11:41:21,841- SeleniumCompoenents: 16/102 : insert into nifty100 values('20190205','Bharat Electronics','79.80','83.20','79.25','Y') : 1
+05/Feb/2019 11:41:22,297- SeleniumCompoenents: 17/102 : insert into nifty100 values('20190205','Bharat Heavy Electricals','58.85','65.15','56.20','Y') : 1
+05/Feb/2019 11:41:22,811- SeleniumCompoenents: 18/102 : insert into nifty100 values('20190205','Bharat Petroleum','337.95','340.30','336.60','Y') : 1
+05/Feb/2019 11:41:23,221- SeleniumCompoenents: 19/102 : insert into nifty100 values('20190205','Bharti Airtel','308.20','311.65','292.85','Y') : 1
+05/Feb/2019 11:41:23,693- SeleniumCompoenents: 20/102 : insert into nifty100 values('20190205','Bharti Infratel','288.90','295.00','286.45','Y') : 1
+05/Feb/2019 11:41:24,158- SeleniumCompoenents: 21/102 : insert into nifty100 values('20190205','Biocon','649.30','659.30','646.00','Y') : 1
+05/Feb/2019 11:41:24,630- SeleniumCompoenents: 22/102 : insert into nifty100 values('20190205','Bosch','19,056.40','19,219.95','18,950.30','Y') : 1
+05/Feb/2019 11:41:25,218- SeleniumCompoenents: 23/102 : insert into nifty100 values('20190205','Britannia Industries','3,167.05','3,316.00','3,150.10','Y') : 1
+05/Feb/2019 11:41:25,694- SeleniumCompoenents: 24/102 : insert into nifty100 values('20190205','Cadila Healthcare','314.85','319.90','311.95','Y') : 1
+05/Feb/2019 11:41:26,214- SeleniumCompoenents: 25/102 : insert into nifty100 values('20190205','Cipla','508.00','514.00','501.20','Y') : 1
+05/Feb/2019 11:41:26,726- SeleniumCompoenents: 26/102 : insert into nifty100 values('20190205','Coal India','216.40','223.40','215.70','Y') : 1
+05/Feb/2019 11:41:27,158- SeleniumCompoenents: 27/102 : insert into nifty100 values('20190205','Colgate-Palmolive India','1,291.10','1,310.00','1,286.20','Y') : 1
+05/Feb/2019 11:41:27,767- SeleniumCompoenents: 28/102 : insert into nifty100 values('20190205','Container India','517.40','524.40','511.15','Y') : 1
+05/Feb/2019 11:41:28,271- SeleniumCompoenents: 29/102 : insert into nifty100 values('20190205','Dabur India','449.05','453.00','444.20','Y') : 1
+05/Feb/2019 11:41:28,880- SeleniumCompoenents: 30/102 : insert into nifty100 values('20190205','DLF','159.75','165.35','154.55','Y') : 1
+05/Feb/2019 11:41:29,479- SeleniumCompoenents: 31/102 : insert into nifty100 values('20190205','Dr. Reddys Labs','2,821.45','2,859.85','2,773.00','Y') : 1
+05/Feb/2019 11:41:30,011- SeleniumCompoenents: 32/102 : insert into nifty100 values('20190205','Eicher Motors','20,479.65','20,584.90','20,160.00','Y') : 1
+05/Feb/2019 11:41:30,535- SeleniumCompoenents: 33/102 : insert into nifty100 values('20190205','GAIL Ltd','332.10','339.00','325.55','Y') : 1
+05/Feb/2019 11:41:31,146- SeleniumCompoenents: 34/102 : insert into nifty100 values('20190205','General Insurance India','247.40','255.00','246.15','Y') : 1
+05/Feb/2019 11:41:32,148- SeleniumCompoenents: 35/102 : insert into nifty100 values('20190205','Godrej Consumer','684.50','700.00','680.00','Y') : 1
+05/Feb/2019 11:41:33,015- SeleniumCompoenents: 36/102 : insert into nifty100 values('20190205','Grasim Industries','703.95','714.00','698.00','Y') : 1
+05/Feb/2019 11:41:33,665- SeleniumCompoenents: 37/102 : insert into nifty100 values('20190205','Havells India','730.80','739.80','725.00','Y') : 1
+05/Feb/2019 11:41:34,095- SeleniumCompoenents: 38/102 : insert into nifty100 values('20190205','HCL Tech','1,047.75','1,055.00','1,041.50','Y') : 1
+05/Feb/2019 11:41:34,575- SeleniumCompoenents: 39/102 : insert into nifty100 values('20190205','HDFC Bank','2,114.05','2,119.00','2,097.00','Y') : 1
+05/Feb/2019 11:41:35,056- SeleniumCompoenents: 40/102 : insert into nifty100 values('20190205','HDFC Life','376.25','377.30','370.60','Y') : 1
+05/Feb/2019 11:41:35,539- SeleniumCompoenents: 41/102 : insert into nifty100 values('20190205','Hero MotoCorp','2,854.55','2,873.35','2,800.00','Y') : 1
+05/Feb/2019 11:41:36,083- SeleniumCompoenents: 42/102 : insert into nifty100 values('20190205','Hindalco Industries','204.75','208.75','202.70','Y') : 1
+05/Feb/2019 11:41:36,631- SeleniumCompoenents: 43/102 : insert into nifty100 values('20190205','Hindustan Petroleum','225.15','228.15','224.05','Y') : 1
+05/Feb/2019 11:41:37,166- SeleniumCompoenents: 44/102 : insert into nifty100 values('20190205','Hindustan Unilever','1,821.45','1,834.95','1,804.95','Y') : 1
+05/Feb/2019 11:41:37,602- SeleniumCompoenents: 45/102 : insert into nifty100 values('20190205','Hindustan Zinc','254.80','258.80','253.70','Y') : 1
+05/Feb/2019 11:41:38,106- SeleniumCompoenents: 46/102 : insert into nifty100 values('20190205','Housing Development Finance','1,981.40','1,985.00','1,962.25','Y') : 1
+05/Feb/2019 11:41:38,598- SeleniumCompoenents: 47/102 : insert into nifty100 values('20190205','ICICI Bank','352.65','356.10','348.85','Y') : 1
+05/Feb/2019 11:41:39,035- SeleniumCompoenents: 48/102 : insert into nifty100 values('20190205','ICICI Lombard','884.60','895.00','874.70','Y') : 1
+05/Feb/2019 11:41:39,523- SeleniumCompoenents: 49/102 : insert into nifty100 values('20190205','ICICI Prudential Life Insurance','286.30','287.80','281.15','Y') : 1
+05/Feb/2019 11:41:40,143- SeleniumCompoenents: 50/102 : insert into nifty100 values('20190205','Indiabulls','645.40','662.70','630.25','Y') : 1
+05/Feb/2019 11:41:40,627- SeleniumCompoenents: 51/102 : insert into nifty100 values('20190205','Indian Oil','133.75','136.20','133.30','Y') : 1
+05/Feb/2019 11:41:41,091- SeleniumCompoenents: 52/102 : insert into nifty100 values('20190205','IndusInd Bank','1,541.75','1,557.15','1,498.05','Y') : 1
+05/Feb/2019 11:41:41,623- SeleniumCompoenents: 53/102 : insert into nifty100 values('20190205','Infosys','754.85','759.95','747.00','Y') : 1
+05/Feb/2019 11:41:42,076- SeleniumCompoenents: 54/102 : insert into nifty100 values('20190205','Interglobe Aviation Ltd','1,174.40','1,180.00','1,151.00','Y') : 1
+05/Feb/2019 11:41:42,620- SeleniumCompoenents: 55/102 : insert into nifty100 values('20190205','ITC','274.15','277.80','272.50','Y') : 1
+05/Feb/2019 11:41:43,005- SeleniumCompoenents: 56/102 : insert into nifty100 values('20190205','JSW Steel','273.55','277.65','270.65','Y') : 1
+05/Feb/2019 11:41:43,423- SeleniumCompoenents: 57/102 : insert into nifty100 values('20190205','Kotak Mahindra Bank','1,279.15','1,287.00','1,267.50','Y') : 1
+05/Feb/2019 11:41:43,847- SeleniumCompoenents: 58/102 : insert into nifty100 values('20190205','L&T Finance Hld','126.40','129.80','125.20','Y') : 1
+05/Feb/2019 11:41:44,600- SeleniumCompoenents: 59/102 : insert into nifty100 values('20190205','Larsen & Toubro','1,304.60','1,323.00','1,300.00','Y') : 1
+05/Feb/2019 11:41:45,073- SeleniumCompoenents: 60/102 : insert into nifty100 values('20190205','Lic Housing Finance','459.35','462.15','454.10','Y') : 1
+05/Feb/2019 11:41:45,520- SeleniumCompoenents: 61/102 : insert into nifty100 values('20190205','Lupin','837.70','855.50','830.35','Y') : 1
+05/Feb/2019 11:41:45,928- SeleniumCompoenents: 62/102 : insert into nifty100 values('20190205','M.R.F.','60,004.30','60,400.00','59,500.00','Y') : 1
+05/Feb/2019 11:41:46,445- SeleniumCompoenents: 63/102 : insert into nifty100 values('20190205','Mahindra & Mahindra','684.90','692.60','672.65','Y') : 1
+05/Feb/2019 11:41:46,867- SeleniumCompoenents: 64/102 : insert into nifty100 values('20190205','Marico','363.50','369.50','358.30','Y') : 1
+05/Feb/2019 11:41:47,337- SeleniumCompoenents: 65/102 : insert into nifty100 values('20190205','Maruti Suzuki','7,093.60','7,125.00','6,985.40','Y') : 1
+05/Feb/2019 11:41:47,789- SeleniumCompoenents: 66/102 : insert into nifty100 values('20190205','Motherson Sumi Systems','136.50','140.25','134.65','Y') : 1
+05/Feb/2019 11:41:48,197- SeleniumCompoenents: 67/102 : insert into nifty100 values('20190205','New India Assurance','176.05','182.00','175.00','Y') : 1
+05/Feb/2019 11:41:48,629- SeleniumCompoenents: 68/102 : insert into nifty100 values('20190205','NHPC','23.80','25.50','23.15','Y') : 1
+05/Feb/2019 11:41:49,034- SeleniumCompoenents: 69/102 : insert into nifty100 values('20190205','NMDC','93.90','95.65','93.25','Y') : 1
+05/Feb/2019 11:41:49,491- SeleniumCompoenents: 70/102 : insert into nifty100 values('20190205','NTPC','138.05','138.40','136.20','Y') : 1
+05/Feb/2019 11:41:49,991- SeleniumCompoenents: 71/102 : insert into nifty100 values('20190205','Oil & Natural Gas','142.95','148.20','142.30','Y') : 1
+05/Feb/2019 11:41:50,463- SeleniumCompoenents: 72/102 : insert into nifty100 values('20190205','Oil India','169.50','172.15','168.80','Y') : 1
+05/Feb/2019 11:41:50,915- SeleniumCompoenents: 73/102 : insert into nifty100 values('20190205','Oracle','3,828.25','3,848.55','3,785.25','Y') : 1
+05/Feb/2019 11:41:51,421- SeleniumCompoenents: 74/102 : insert into nifty100 values('20190205','Petronet LNG','220.15','221.20','210.65','Y') : 1
+05/Feb/2019 11:41:51,873- SeleniumCompoenents: 75/102 : insert into nifty100 values('20190205','Pidilite Industries','1,119.30','1,134.20','1,115.95','Y') : 1
+05/Feb/2019 11:41:52,341- SeleniumCompoenents: 76/102 : insert into nifty100 values('20190205','Piramal Enterprises','2,171.10','2,178.35','2,085.00','Y') : 1
+05/Feb/2019 11:41:52,825- SeleniumCompoenents: 77/102 : insert into nifty100 values('20190205','Power Grid','186.10','186.95','183.50','Y') : 1
+05/Feb/2019 11:41:53,330- SeleniumCompoenents: 78/102 : insert into nifty100 values('20190205','Procter & Gamble Hygiene','9,938.50','9,989.00','9,820.05','Y') : 1
+05/Feb/2019 11:41:53,846- SeleniumCompoenents: 79/102 : insert into nifty100 values('20190205','Reliance Industries','1,291.55','1,304.40','1,278.60','Y') : 1
+05/Feb/2019 11:41:54,423- SeleniumCompoenents: 80/102 : insert into nifty100 values('20190205','SBI','284.65','287.00','283.00','Y') : 1
+05/Feb/2019 11:41:55,179- SeleniumCompoenents: 81/102 : insert into nifty100 values('20190205','SBI Life Insurance','584.00','594.00','582.00','Y') : 1
+05/Feb/2019 11:41:55,727- SeleniumCompoenents: 82/102 : insert into nifty100 values('20190205','Shree Cements','15,675.65','15,944.00','15,600.50','Y') : 1
+05/Feb/2019 11:41:56,430- SeleniumCompoenents: 83/102 : insert into nifty100 values('20190205','Shriram Transport','1,068.10','1,073.95','1,018.15','Y') : 1
+05/Feb/2019 11:41:56,922- SeleniumCompoenents: 84/102 : insert into nifty100 values('20190205','Siemens Ltd','994.60','1,032.00','990.00','Y') : 1
+05/Feb/2019 11:41:57,364- SeleniumCompoenents: 85/102 : insert into nifty100 values('20190205','Steel Authority','45.35','46.35','44.70','Y') : 1
+05/Feb/2019 11:41:57,824- SeleniumCompoenents: 86/102 : insert into nifty100 values('20190205','Sun Pharma','409.90','418.50','406.55','Y') : 1
+05/Feb/2019 11:41:58,260- SeleniumCompoenents: 87/102 : insert into nifty100 values('20190205','Sun TV Network Ltd','522.00','528.65','513.10','Y') : 1
+05/Feb/2019 11:41:58,760- SeleniumCompoenents: 88/102 : insert into nifty100 values('20190205','Tata Consultancy','2,044.55','2,055.00','2,028.00','Y') : 1
+05/Feb/2019 11:41:59,177- SeleniumCompoenents: 89/102 : insert into nifty100 values('20190205','Tata Motors','175.80','181.15','174.70','Y') : 1
+05/Feb/2019 11:41:59,725- SeleniumCompoenents: 90/102 : insert into nifty100 values('20190205','Tata Motors DV Ltd','90.70','93.85','90.05','Y') : 1
+05/Feb/2019 11:42:00,221- SeleniumCompoenents: 91/102 : insert into nifty100 values('20190205','Tata Steel Ltd','464.70','477.00','459.45','Y') : 1
+05/Feb/2019 11:42:00,665- SeleniumCompoenents: 92/102 : insert into nifty100 values('20190205','Tech Mahindra','751.00','760.00','740.20','Y') : 1
+05/Feb/2019 11:42:01,108- SeleniumCompoenents: 93/102 : insert into nifty100 values('20190205','Titan Company','1,066.70','1,074.00','1,020.00','Y') : 1
+05/Feb/2019 11:42:01,592- SeleniumCompoenents: 94/102 : insert into nifty100 values('20190205','UltraTech Cement','3,461.75','3,472.00','3,410.00','Y') : 1
+05/Feb/2019 11:42:02,052- SeleniumCompoenents: 95/102 : insert into nifty100 values('20190205','United Spirits','549.90','560.30','545.00','Y') : 1
+05/Feb/2019 11:42:02,597- SeleniumCompoenents: 96/102 : insert into nifty100 values('20190205','UPL','795.95','800.00','772.85','Y') : 1
+05/Feb/2019 11:42:03,066- SeleniumCompoenents: 97/102 : insert into nifty100 values('20190205','Vedanta','162.60','164.50','157.25','Y') : 1
+05/Feb/2019 11:42:03,538- SeleniumCompoenents: 98/102 : insert into nifty100 values('20190205','Vodafone Idea','30.45','30.65','29.25','Y') : 1
+05/Feb/2019 11:42:03,986- SeleniumCompoenents: 99/102 : insert into nifty100 values('20190205','Wipro','368.45','372.20','365.80','Y') : 1
+05/Feb/2019 11:42:04,494- SeleniumCompoenents: 100/102 : insert into nifty100 values('20190205','Yes Bank','176.10','183.50','175.00','Y') : 1
+05/Feb/2019 11:42:04,926- SeleniumCompoenents: 101/102 : insert into nifty100 values('20190205','Zee Entertainment','365.35','369.90','341.05','Y') : 1
+05/Feb/2019 11:42:05,069- SeleniumCompoenents: Number Of Elements:102
+05/Feb/2019 11:42:05,069- SeleniumCompoenents: ${constituents.url}https://in.investing.com/indices/cnx-100-components
+05/Feb/2019 11:42:05,076- SeleniumCompoenents: ${prefix.element}//table[@id='cr1']//tr
+05/Feb/2019 11:42:05,077- SeleniumCompoenents: ${historic.url}https://in.investing.com/indices/cnx-100-historical-data
+05/Feb/2019 11:42:05,077- SeleniumCompoenents: ${element.wait.date}curr_table
+05/Feb/2019 11:42:05,078- SeleniumCompoenents: ${xpath.today}//table[1]/tbody/tr[1]/td[1]
+05/Feb/2019 11:42:05,291- SeleniumCompoenents:  select t2.symbol , t1.close , t2.close , t3.close , t1.high, t2.high,t3.high,  t1.low, t2.low  , t3.low  from  nifty100 t1 , nifty100 t2 , nifty100 t3  where t1.symbol=t2.symbol and t1.date='20190205' and t2.date ='20190204'  and t3.date='20190201' and t1.isvalid= 'Y' and t2.isvalid='Y' and t3.isvalid='Y' and t3.symbol=t1.symbol and t1.symbol=t2.symbol 

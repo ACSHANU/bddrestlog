@@ -2,7 +2,7 @@ package Utils;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import stepdefs.ServiceHooks;
+
 
 /**
  * Created by Duvvuri on 23/12/2018.
@@ -73,7 +73,7 @@ public class Utilities {
         str.append("</TR>");
         str.append("</Table>");
 
-        ServiceHooks.scenario.embed(str.toString().getBytes(),"text/html");
+
     }
 
     public static void InitializeProps()
