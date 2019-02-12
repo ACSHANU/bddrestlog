@@ -4,3 +4,4 @@ log/
 acshanu
 *.iml
 files/*.csv
+*.log
